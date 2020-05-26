@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containerr"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="154dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="10dp"
+        android:text="murat nuhoglu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtcomment"
+        android:layout_width="387dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="20dp"
+        android:text="Whats can i do sometimesWhats can i do sometimesWhats can i do sometimesWhats can i do sometimesWhats can i do sometimes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtname"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="405dp"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

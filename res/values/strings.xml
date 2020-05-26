@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MuratNuhogluCS310Homwork3</string>
+    <string-array name="category">
+        <item>All</item>
+        <item>Economics</item>
+        <item>Politics</item>
+        <item>Sports</item>
+    </string-array>
+</resources>
